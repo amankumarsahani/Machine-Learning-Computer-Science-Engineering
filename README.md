@@ -1,17 +1,16 @@
 # Machine-Learning-Computer-Science-Engineering
-
+<div>
+    <h1 align="center"><u>Introduction</u></h1>
 
 <div>
-    <h1>Introduction</h1>
-
-<div>
-    <h2>Well posed learning problems</h2>
+    <h1 align="center"><u>Well posed learning problems</u></h1>
     <p>A computer program is said to learn from experience E in context to some task T and some performance measure P, if its performance on T, as was measured by P, upgrades with experience E.</p>
 </div>
 
 <div>
     <h2>Well posed learning problems - Examples</h2>
-    <ul>
+    <div>
+        <ul>
             <div><li>
             <h3>To better filter emails as spam or not</h3>
             Task – Classifying emails as spam or not<br>
@@ -40,15 +39,12 @@
             Experience – training machine with maximum amount of datasets of different face images</li>
             </div>
         </ul>
+    </div>
+    
 </div>
 
 <div>
-    <h2>Design a Learning System in Machine Learning</h2>
-    <h2>Learning System Design</h2>
-    <p>According to Arthur Samuel “Machine Learning enables a Machine to Automatically learn from Data, Improve performance from an Experience and predict things without explicitly programmed.”</p>
-
-<div>
-    <h2>Design a Learning System in Machine Learning</h2>
+    <h1 align="center"><u>Design a Learning System in Machine Learning</u></h1>
     <h2>Learning System Design</h2>
     <p>According to Arthur Samuel “Machine Learning enables a Machine to Automatically learn from Data, Improve performance from an Experience and predict things without explicitly programmed.”</p>
     <div>
@@ -98,6 +94,7 @@
             </div>
         </ol>
     </div>
+    
     <h2>Comparison</h2>
     <p>References :<br>
     <a href="https://www.geeksforgeeks.org/supervised- unsupervised-learning/">https://www.geeksforgeeks.org/supervised- unsupervised-learning/</a><br>
@@ -109,7 +106,8 @@
 
 
 <div>
-    <h1>Data Pre-processing</h1>
+
+    <h1 align="center"><u>Data Pre-processing</u></h1>
     <div>
         <h2>Data Preprocessing</h2>
         <p>Data preprocessing is the process of transforming raw data into an understandable format.The quality of the data should be checked before applying machine learning or data mining algorithms.</p>
