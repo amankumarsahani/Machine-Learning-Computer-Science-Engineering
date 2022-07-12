@@ -1,4 +1,4 @@
-# Machine-Learning-Computer-Science-Engineering
+<div align="center"><h1>Machine-Learning-Computer-Science-Engineering</h1></div>
 <div>
     <h1 align="center"><u>Introduction</u></h1>
 
@@ -114,17 +114,23 @@
     </div>
     <div>
         <h2>Methods of Data Pre-processing</h2>
+        <div>
         <ul>
+            <div>
             <li>Data Cleaning</li>
             <li>Data Integration</li>
             <li>Data transformation</li>
             <li>Data Reduction/Dimension Reduction</li>
-        </ul>
+            </div>
+         </ul>
+        </div>
+        <div>
         <h3>Data Cleaning</h3>
         <ul>
             <li>Missing Values - Ignore/Fill Missing values</li>
             <li>Noisy Data - Binning (Mean/ Median/ Boundary Values) or Regression or Clustering</li>
         </ul>
+        </div>
     </div>
 
 </div>
