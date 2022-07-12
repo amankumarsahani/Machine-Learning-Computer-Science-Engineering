@@ -105,32 +105,107 @@
 
 
 
-
 <div>
-    <div><h1 align="center"><u>Data Pre-processing</u></h1></div>
-    <div>
-        <h2>Data Preprocessing</h2>
-        <p>Data preprocessing is the process of transforming raw data into an understandable format.The quality of the data should be checked before applying machine learning or data mining algorithms.</p>
-    </div>
-    <div>
-        <h2>Methods of Data Pre-processing</h2>
+        <div><h1 align="center"><u>Data Pre-Processing</u></h1></div>
         <div>
-        <ul>
+            <h2>Data Preprocessing</h2>
+            <p>Data preprocessing is the process of transforming raw data into an understandable format.The quality of the data should be checked before applying machine learning or data mining algorithms.</p>
+        </div>
+        <div>
+            <h2>Methods of Data Pre-processing</h2>
             <div>
-            <li>Data Cleaning</li>
-            <li>Data Integration</li>
-            <li>Data transformation</li>
-            <li>Data Reduction/Dimension Reduction</li>
+            <ul>
+                <div>
+                <li>Data Cleaning</li>
+                <li>Data Integration</li>
+                <li>Data transformation</li>
+                <li>Data Reduction/Dimension Reduction</li>
+                </div>
+             </ul>
             </div>
-         </ul>
+            <div>
+            <h3>Data Cleaning</h3>
+            <ul>
+                <li>Missing Values - Ignore/Fill Missing values</li>
+                <li>Noisy Data - Binning (Mean/ Median/ Boundary Values) or Regression or Clustering</li>
+            </ul>
+            </div>
+            <div>
+                <h3>Data Integration</h3>
+                <p>The process of combining multiple sources into a single dataset. The Data integration process is one of the main components in data management.                </p>
+                <ul>
+                    <li>Schema integration: Integrates metadata(a set of data that describes other data) from different sources.</li>
+                    <li>Entity identification problem: Identifying entities from multiple databases.</li>
+                    <li>Detecting and resolving data value concepts: The data taken from different databases while merging may differ from another database. For example, the date format may differ like “MM/DD/YYYY” or “DD/MM/YYYY”.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Data Transformation</h3>
+                <p>The change made in the format or the structure of the data is called data transformation. This step can be simple or complex based on the requirements.</p>
+                <ul>
+                    <li>Normalization:
+                        It is done in order to scale the data values in a specified range (-1.0 to 1.0 or 0.0 to 1.0)</li>
+                    <li>Attribute Selection:
+                        In this strategy, new attributes are constructed from the given set of attributes to help the mining process.</li>
+                    <li>Discretization: The continuous data here is split into intervals. interval like (3 pm-5 pm, 6 pm-8 pm).</li>
+                    <li>Concept Hierarchy Generation:
+                        Here attributes are converted from lower level to higher level in hierarchy. For Example-The attribute “city” can be converted to “country”.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Data Reduction</h3>
+                <p>This process helps in the reduction of the volume of the data which makes the analysis easier yet produces the same or almost the same result. This reduction also helps to reduce storage space.</p>
+                <ul>
+                    <li>Attribute Subset Selection:
+                        The highly relevant attributes should be used, rest all can be discarded.</li>
+                    <li>Numerosity Reduction:
+                        This enable to store the model of data instead of whole data, for example: Regression Models.</li>
+                    <li>Dimensionality Reduction:
+                        This reduce the size of data by encoding mechanisms.It can be lossy or lossless.</li>
+                </ul>
+            </div>
         </div>
         <div>
-        <h3>Data Cleaning</h3>
-        <ul>
-            <li>Missing Values - Ignore/Fill Missing values</li>
-            <li>Noisy Data - Binning (Mean/ Median/ Boundary Values) or Regression or Clustering</li>
-        </ul>
+            <h2>Data Preprocessing: Best practices</h2>
+            <ol>
+                <li>The first step in Data Preprocessing is to understand your data. Just looking at your dataset can give you an intuition of what things you need to focus on.</li>
+                <li>Use statistical methods or pre-built libraries that help you visualize the dataset and give a clear image of how your data looks in terms of class distribution.</li>
+                <li>Summarize your data in terms of the number of duplicates, missing values, and outliers present in the data.</li>
+                <li>Drop the fields you think have no use for the modeling or are closely related to other attributes. Dimensionality reduction is one of the very important aspects of Data Preprocessing.</li>
+                <li>Do some feature engineering and figure out which attributes contribute most towards model training.</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Splitting dataset into Training and Testing set.</h2>
+            <ul>
+                <li><h3>Training Data</h3>
+                    <p>The observations in the training set form the experience that the algorithm uses to learn. In supervised learning problems, each observation consists of an observed output variable and one or more observed input variables.</p></li>
+                <li><h3>Test Data</h3>
+                    <p>The test set is a set of observations used to evaluate the performance of the model using some performance metric. It is important that no observations from the training set are included in the test set.</p></li>
+                </ul>
+        </div>
+        <div>
+            <h2>Basics</h2>
+            <ol>
+                <li>Bias: Assumptions made by a model to make a function easier to learn.</li>
+                <li>Variance: If you train your data on training data and obtain a very low error, upon changing the data and then training the same previous model you experience a high error, this is variance.</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Under & Over Fitting</h2>
+            <ol>
+                <li>Underfitting:
+                    A statistical model or a machine learning algorithm is said to have underfitting when it cannot capture the underlying trend of the data.
+                </li>
+                <li>
+                    Overfitting:
+                    A statistical model is said to be overfitted when we train it with a lot of data (just like fitting ourselves in oversized pants!).
+                </li>
+            </ol>
+        </div>
+        <div>
+            <a href="https://www.geeksforgeeks.org/data- preprocessing-in-data-mining/">https://www.geeksforgeeks.org/data- preprocessing-in-data-mining/</a>
+            <a href="https://www.analyticsvidhya.com/blog/2021/ 08/data-preprocessing-in-data-mining-a- hands-on-guide/">https://www.analyticsvidhya.com/blog/2021/ 08/data-preprocessing-in-data-mining-a- hands-on-guide/</a>
+            <a href="https://www.v7labs.com/blog/data- preprocessing-guide">https://www.v7labs.com/blog/data- preprocessing-guide</a>
         </div>
     </div>
-
-</div>
