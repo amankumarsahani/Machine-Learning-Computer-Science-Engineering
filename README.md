@@ -94,12 +94,13 @@
             </div>
         </ol>
     </div>
-    
+    <div>
     <h2>Comparison</h2>
     <p>References :<br>
     <a href="https://www.geeksforgeeks.org/supervised- unsupervised-learning/">https://www.geeksforgeeks.org/supervised- unsupervised-learning/</a><br>
     <a href="https://www.aitude.com/supervised-vs- unsupervised-vs-reinforcement/">https://www.aitude.com/supervised-vs- unsupervised-vs-reinforcement/</a>
-</p>
+    </div>
+        </p>
 </div>
 
 
