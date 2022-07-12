@@ -11,30 +11,35 @@
 
 <div>
     <h2>Well posed learning problems - Examples</h2>
-    <ul><li>
-        <h3>To better filter emails as spam or not</h3>
-        Task – Classifying emails as spam or not<br>
+    <ul>
+            <div><li>
+            <h3>To better filter emails as spam or not</h3>
+            Task – Classifying emails as spam or not<br>
             Performance Measure – The fraction of emails accurately classified as spam or not spam<br>
             Experience – Observing you label emails as spam or not spam</li>
-        
-        <li>
-        <h3>Handwriting Recognition Problem</h3>
-        Task – Acknowledging handwritten words within portrayal<br>
+            </div>
+            <div>
+            <li>
+            <h3>Handwriting Recognition Problem</h3>
+            Task – Acknowledging handwritten words within portrayal<br>
             Performance Measure – percent of words accurately classified<br>
             Experience – a directory of handwritten words with given classifications</li>
-
-        <li>
-        <h3>Fruit Prediction Problem</h3>
-        Task – forecasting different fruits for recognition<br>
+            </div>
+            <div>
+            <li>
+            <h3>Fruit Prediction Problem</h3>
+            Task – forecasting different fruits for recognition<br>
             Performance Measure – able to predict maximum variety of fruits<br>
             Experience – training machine with the largest datasets of fruits images</li>
-
-        <li>
-        <h3>Face Recognition Problem</h3>
-        Task – predicting different types of faces<br>
+            </div>
+            <div>
+            <li>
+            <h3>Face Recognition Problem</h3>
+            Task – predicting different types of faces<br>
             Performance Measure – able to predict maximum types of faces<br>
             Experience – training machine with maximum amount of datasets of different face images</li>
-    </ul>
+            </div>
+        </ul>
 </div>
 
 <div>
