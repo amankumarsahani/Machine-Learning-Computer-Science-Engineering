@@ -187,19 +187,17 @@
         <div>
             <h2>Basics</h2>
             <ol>
-                <li>Bias:<br> Assumptions made by a model to make a function easier to learn.</li>
-                <li>Variance:<br> If you train your data on training data and obtain a very low error, upon changing the data and then training the same previous model you experience a high error, this is variance.</li>
+                <li>Bias: Assumptions made by a model to make a function easier to learn.</li>
+                <li>Variance: If you train your data on training data and obtain a very low error, upon changing the data and then training the same previous model you experience a high error, this is variance.</li>
             </ol>
         </div>
         <div>
             <h2>Under & Over Fitting</h2>
             <ol>
-                <li>Underfitting:
-                   <br>A statistical model or a machine learning algorithm is said to have underfitting when it cannot capture the underlying trend of the data.
+                <li>Underfitting: A statistical model or a machine learning algorithm is said to have underfitting when it cannot capture the underlying trend of the data.
                 </li>
                 <li>
-                    Overfitting:
-                    <br>A statistical model is said to be overfitted when we train it with a lot of data (just like fitting ourselves in oversized pants!).
+                    Overfitting: A statistical model is said to be overfitted when we train it with a lot of data (just like fitting ourselves in oversized pants!).
                 </li>
             </ol>
         </div>
