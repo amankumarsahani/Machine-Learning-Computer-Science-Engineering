@@ -100,15 +100,14 @@
     <a href="https://www.geeksforgeeks.org/supervised- unsupervised-learning/">https://www.geeksforgeeks.org/supervised- unsupervised-learning/</a><br>
     <a href="https://www.aitude.com/supervised-vs- unsupervised-vs-reinforcement/">https://www.aitude.com/supervised-vs- unsupervised-vs-reinforcement/</a>
     </div>
-        </p>
+    </p>
 </div>
 
 
 
 
 <div>
-
-    <h1 align="center"><u>Data Pre-processing</u></h1>
+    <div><h1 align="center"><u>Data Pre-processing</u></h1></div>
     <div>
         <h2>Data Preprocessing</h2>
         <p>Data preprocessing is the process of transforming raw data into an understandable format.The quality of the data should be checked before applying machine learning or data mining algorithms.</p>
