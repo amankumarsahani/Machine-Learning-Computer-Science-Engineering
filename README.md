@@ -205,7 +205,6 @@
             <span>References :<span><br>
             <a href="https://www.geeksforgeeks.org/data- preprocessing-in-data-mining/">https://www.geeksforgeeks.org/data- preprocessing-in-data-mining/</a><br>
             <a href="https://www.analyticsvidhya.com/blog/2021/ 08/data-preprocessing-in-data-mining-a- hands-on-guide/">https://www.analyticsvidhya.com/blog/2021/ 08/data-preprocessing-in-data-mining-a- hands-on-guide/</a><br>
-            <a href="https://www.v7labs.com/blog/data- preprocessing-guide">https://www.v7labs.com/blog/data- preprocessing-guide</a>
-            
+            <a href="https://www.v7labs.com/blog/data- preprocessing-guide">https://www.v7labs.com/blog/data- preprocessing-guide</a>    
         </div>
-    </div>
+    
